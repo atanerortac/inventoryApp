@@ -34,7 +34,7 @@ npm install
 ```
 
 #### Frontend
-Navigate to the `server` folder and install dependencies:
+Navigate to the `client` folder and install dependencies:
 ```bash
 cd client
 npm install
