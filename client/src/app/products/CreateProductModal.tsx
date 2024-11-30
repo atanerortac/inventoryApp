@@ -98,7 +98,7 @@ const CreateProductModal = ({
 
           <button
             type="submit"
-            className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
+            className="mt-4 px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-700"
           >
             Create
           </button>

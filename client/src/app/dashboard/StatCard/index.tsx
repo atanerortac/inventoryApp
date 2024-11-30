@@ -26,7 +26,7 @@ const StatCard = ({
       </div>
 
       <div className="flex mb-6 items-center justify-around gap-4 px-5">
-        <div className="rounded-full p-5 bg-purple-50 border-sky-300 border-[1px]">
+        <div className="rounded-full p-5 bg-purple-50 border-purple-300 border-[1px]">
           {primaryIcon}
         </div>
         <div className="flex-1">
