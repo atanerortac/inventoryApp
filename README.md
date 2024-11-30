@@ -44,7 +44,7 @@ npm install
 
 Install PostgreSQL ([Guide](https://www.postgresql.org/download/)).
 
-### 5. Start the Development Servers
+### 4. Start the Development Servers
 
 #### Backend
 Navigate to the `server` folder and start the development server:
