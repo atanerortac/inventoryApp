@@ -1,6 +1,6 @@
-# 📦 My Project
+# 📦Inventory App
 
-Welcome to **My Project**, a full-stack application built with:
+**Inventory App**, a full-stack application built with:
 
 - **Frontend**: [Next.js](https://nextjs.org/) for a seamless React-based user interface.
 - **Backend**: [Node.js](https://nodejs.org/) with [Express](https://expressjs.com/) for a robust API.
