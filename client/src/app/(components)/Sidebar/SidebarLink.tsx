@@ -26,8 +26,8 @@ const SidebarLink = ({
         className={`cursor-pointer flex items-center ${
           isCollapsed ? 'justify-center py-4' : 'justify-start px-8 py-4'
         }
-        hover:text-blue-500 hover:bg-blue-100 gap-3 transition-colors ${
-          isActive ? 'bg-blue-200 text-white' : ''
+        hover:text-purple-500 hover:bg-purple-100 gap-3 transition-colors ${
+          isActive ? 'bg-purple-200 text-white' : ''
         }
       }`}
       >
