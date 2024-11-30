@@ -84,3 +84,16 @@ export type CreateProductModalProps = {
   onClose: () => void
   onCreate: (formData: ProductFormData) => void
 }
+
+export type UserSetting = {
+  label: string
+  value: string | boolean
+  type: 'text' | 'toggle'
+}
+
+export type ProductFormData = {
+  name: string
+  price: number
+  stockQuantity: number
+  rating: number
+}

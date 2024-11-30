@@ -7,14 +7,7 @@ import Header from '@/app/(components)/Headers'
 import Rating from '@/app/(components)/Rating'
 import CreateProductModal from './CreateProductModal'
 import Image from 'next/image'
-import { Product } from '@/types'
-
-type ProductFormData = {
-  name: string
-  price: number
-  stockQuantity: number
-  rating: number
-}
+import { Product, ProductFormData } from '@/types'
 
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState('')

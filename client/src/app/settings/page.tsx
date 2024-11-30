@@ -1,13 +1,8 @@
 'use client'
 
 import React, { useState } from 'react'
-import Header from '@/app/(components)/Header'
-
-type UserSetting = {
-  label: string
-  value: string | boolean
-  type: 'text' | 'toggle'
-}
+import Header from '@/app/(components)/Headers'
+import { UserSetting } from '@/types'
 
 const mockSettings: UserSetting[] = [
   { label: 'Username', value: 'john_doe', type: 'text' },
