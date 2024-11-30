@@ -97,3 +97,13 @@ export type ProductFormData = {
   stockQuantity: number
   rating: number
 }
+
+type AggregatedDataItem = {
+  name: string
+  color?: string
+  amount: number
+}
+
+type AggregatedData = {
+  [category: string]: AggregatedDataItem
+}
