@@ -5,6 +5,8 @@ import cors from 'cors'
 import helmet from 'helmet'
 import morgan from 'morgan'
 
+import dashboardRoutes from './routes/dashboardRoutes'
+
 donenv.config()
 
 const app = express()
@@ -18,9 +20,7 @@ app.use(cors())
 
 // ROUTES
 
-app.get('/hello', (req, res) => {
-  res.send('hello world')
-})
+app.use('/dashboard', dashboardRoutes)
 
 const port = process.env.PORT || 3001
 
